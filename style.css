@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	font-family: cursive;
+	color: white;
+
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+.content {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  color: #f1f1f1;
+  width: 100%;
+}
+
+h1{
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+}
+img{
+	height: 50px;
+	width: 100px;
+	/* margin-left: px; */
+	margin-top: 50px;
+	border-radius: 30px 30px 30px 30px;
+}
+div fieldset{
+			border: 3px solid black;
+		 	border-radius: 0 10px 0 10px;   
+
+		}
+		fieldset legend{
+			border: inherit;
+			border-radius: inherit;
+			background: linear-gradient(45deg ,darkblue,blue);
+			font-family: 'UnifrakturMaguntia', cursive;
+			font-size: 35px;
+		}
+		input{
+			margin-left: 40px;
+			border-radius: 10px;
+			border: none;
+			outline: none;
+			margin: 10px;
+			height: 25px;
+
+		}
+		label{
+			/* margin-left: 40px; */
+			margin-top: 40px;
+			font-family: cursive;
+			font-size: 20px;
+ 
+		}
+
+
+		.btn1 input{
+           background: linear-gradient(45deg ,darkblue,blue);
+		   border: none;
+		   color: white;
+		   padding-bottom: 10px;
+		   text-align: center;
+		   text-decoration: none;
+		   display: inline-block;
+		   font-size: 25px;
+	   	   font-family: 'UnifrakturMaguntia', cursive;
+		   width: 150px;
+		   height: 50px;
+		   border-radius: 0px 20px 0px 20px;
+		}
+
+
+		
